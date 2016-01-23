@@ -1,0 +1,26 @@
+{
+  "name": "gussy-loader",
+  "author": "Matt Campbell <matt@mattcampbell.net>",
+  "version": "0.0.1",
+  "description": "gussy loader for webpack",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "css",
+    "gussy",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codingcampbell/gussy-loader.git"
+  },
+  "peerDependencies": {
+    "gussy": "0.0.x"
+  },
+  "devDependencies": {
+    "gussy": "0.0.x"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.12"
+  }
+}
