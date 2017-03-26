@@ -1,7 +1,7 @@
 {
   "name": "gussy-loader",
   "author": "Matt Campbell <matt@mattcampbell.net>",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "gussy loader for webpack",
   "license": "MIT",
   "main": "index.js",
@@ -21,6 +21,6 @@
     "gussy": "0.0.x"
   },
   "dependencies": {
-    "loader-utils": "^0.2.12"
+    "loader-utils": "^1.1.0"
   }
 }

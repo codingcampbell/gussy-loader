@@ -12,5 +12,5 @@ module.exports = function(source) {
     }
   });
 
-  gussy(utils.parseQuery(this.query)).compile(require(this.resourcePath), this.async().bind(this, null));
+  gussy(utils.getOptions(this)).compile(require(this.resourcePath), this.async().bind(this, null));
 };
